@@ -20,6 +20,7 @@ public class Produto {
     private double preco;
     private Date validade;
     private String categoria;
+    private int qnt_estoque;
 
    
     
@@ -78,5 +79,13 @@ public class Produto {
 
     public void setCategoria(String categoria) {
         this.categoria = categoria;
+    }
+    
+    public int getQtn_estoque() {
+        return qnt_estoque;
+    }
+    
+    public void setQtn_estoque(int qnt_estouqe){
+        this.qnt_estoque = qnt_estouqe;
     }
 }
